@@ -35,28 +35,12 @@ The most important concept to teach is this:
 
 KQL is easiest to learn when it is treated like a pipeline. Each line takes the output of the previous line, transforms it, and passes it forward.
 
----
-
-## 30-Minute Agenda
-
-| Time | Topic | Outcome |
-|---|---|---|
-| 0-3 min | What KQL is and where it is used | Establish relevance |
-| 3-7 min | The KQL mental model | Teach the pipeline concept |
-| 7-15 min | Build a query live | Show how queries evolve step by step |
-| 15-22 min | Intermediate productivity moves | Introduce `extend`, `let`, `join`, and time bucketing |
-| 22-27 min | Tips, tricks, and common mistakes | Help the audience avoid predictable issues |
-| 27-30 min | Recap and Q&A | Reinforce the model and answer questions |
-
----
 
 ## Session Flow
 
 ## 1. What KQL Is
 
-Use this opening:
-
-Kusto Query Language, or KQL, is the language used across Microsoft Sentinel, Azure Monitor, Log Analytics, Azure Data Explorer, and several other Microsoft security and operations experiences. It is the primary way to investigate data, hunt for activity, summarize patterns, and build detection logic.
+Kusto Query Language, or KQL, is the language used across Microsoft Sentinel, Azure Monitor, Log Analytics, Azure Data Explorer, and Defender. It is the primary way to investigate data, hunt for activity, summarize patterns, and build detection logic.
 
 ### Key point to emphasize
 
@@ -66,7 +50,6 @@ You do not need to learn all of KQL to be productive. A small set of operators h
 
 ## 2. The KQL Mental Model
 
-Use this phrasing during the session:
 
 Every KQL query starts with a table and then moves through a pipeline. The most common pattern is:
 
@@ -357,9 +340,9 @@ That pattern helps people understand why the query is written the way it is.
 
 ---
 
-## 9. Recommended Closing
+## 9. Closing
 
-Use a closing message like this:
+
 
 KQL gets easier once you stop treating it like a language to memorize and start treating it like a pipeline to reason through. Most real-world queries start with a table, filter aggressively, shape the output, summarize the pattern, and only then add correlation or visualization if needed.
 
