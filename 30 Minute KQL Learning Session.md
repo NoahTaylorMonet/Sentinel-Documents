@@ -1,33 +1,5 @@
 # 30 Minute KQL Learning Session
 
-> **Purpose:** This document provides a practical 30-minute session outline for teaching Kusto Query Language (KQL) in a Microsoft Sentinel or Log Analytics context. It is designed for live walkthroughs, short workshops, or team enablement sessions.
-
----
-
-## Session Goal
-
-By the end of this session, the audience should be able to:
-
-- Understand the core KQL pipeline model.
-- Read and explain a basic KQL query.
-- Write simple investigation and hunting queries.
-- Use the most common operators with confidence.
-- Avoid the most common beginner mistakes.
-
----
-
-## Recommended Audience
-
-This session is best for:
-
-- SOC analysts
-- Security engineers
-- Cloud engineers supporting Sentinel
-- Technical stakeholders who need a practical KQL foundation
-
----
-
-## Core Message
 
 The most important concept to teach is this:
 
